@@ -15,7 +15,7 @@ function checkstatus() {
         Ns.textContent = network;
       })
       .catch(() => {
-        cs.textContent = "disconneted";
+        cs.textContent = "Check Your Internet Connection ";
         ipA.textContent = "-";
         Ns.textContent = "-";
       });
